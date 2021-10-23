@@ -87,26 +87,3 @@ def numeros(numero):
 
 
 print(numeros(6))
-
-
-# def calcular_total(pago, impuesto):
-#     return pago + ((pago * impuesto) / 100)
-#
-#
-# pago = float(input('Ingrese el valor: '))
-# impuesto = float(input('Ingrese el impuesto: '))
-# print('El total es', calcular_total(pago, impuesto))
-
-
-def celsius_fahrenheit(celsius):
-    return (celsius * 9 / 5) + 32
-
-celcius = float(input('Ingrese el grado: '))
-print('El resultado es', celsius_fahrenheit(celcius))
-
-
-def fahrenheit_celsius(fahrenheit):
-    return (fahrenheit - 32) * 5 / 9
-
-fahrenheit = float(input('Ingrese el grado: '))
-print('El resultado es', fahrenheit_celsius(fahrenheit))
