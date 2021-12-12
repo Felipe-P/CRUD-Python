@@ -1,5 +1,6 @@
 #Set no mantiene un orden no permite almacenar elementos duplicados
 #No permite modificar los elementos del set, pero si es posible agregar y eliminar elementos
+# Contiene datos unicos, no repetidos
 
 planetas = {'Marte', 'Jupiter', 'Venus'}
 print(planetas)
